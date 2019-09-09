@@ -1,0 +1,79 @@
+{
+  "groups": [
+    {
+      "name": "projecturl",
+      "type": "com.lm.sell.config.ProjectUrlConfig",
+      "sourceType": "com.lm.sell.config.ProjectUrlConfig"
+    },
+    {
+      "name": "wechat",
+      "type": "com.lm.sell.config.WechatAccountConfig",
+      "sourceType": "com.lm.sell.config.WechatAccountConfig"
+    }
+  ],
+  "properties": [
+    {
+      "name": "projecturl.sell",
+      "type": "java.lang.String",
+      "sourceType": "com.lm.sell.config.ProjectUrlConfig"
+    },
+    {
+      "name": "projecturl.wechat-mp-authorize",
+      "type": "java.lang.String",
+      "sourceType": "com.lm.sell.config.ProjectUrlConfig"
+    },
+    {
+      "name": "projecturl.wechat-open-authorize",
+      "type": "java.lang.String",
+      "sourceType": "com.lm.sell.config.ProjectUrlConfig"
+    },
+    {
+      "name": "wechat.key-path",
+      "type": "java.lang.String",
+      "sourceType": "com.lm.sell.config.WechatAccountConfig"
+    },
+    {
+      "name": "wechat.mch-id",
+      "type": "java.lang.String",
+      "sourceType": "com.lm.sell.config.WechatAccountConfig"
+    },
+    {
+      "name": "wechat.mch-key",
+      "type": "java.lang.String",
+      "sourceType": "com.lm.sell.config.WechatAccountConfig"
+    },
+    {
+      "name": "wechat.mp-app-id",
+      "type": "java.lang.String",
+      "description": "公众平台配置",
+      "sourceType": "com.lm.sell.config.WechatAccountConfig"
+    },
+    {
+      "name": "wechat.mp-app-secret",
+      "type": "java.lang.String",
+      "sourceType": "com.lm.sell.config.WechatAccountConfig"
+    },
+    {
+      "name": "wechat.notify-url",
+      "type": "java.lang.String",
+      "sourceType": "com.lm.sell.config.WechatAccountConfig"
+    },
+    {
+      "name": "wechat.open-app-id",
+      "type": "java.lang.String",
+      "description": "开放平台配置",
+      "sourceType": "com.lm.sell.config.WechatAccountConfig"
+    },
+    {
+      "name": "wechat.open-app-secret",
+      "type": "java.lang.String",
+      "sourceType": "com.lm.sell.config.WechatAccountConfig"
+    },
+    {
+      "name": "wechat.template-id",
+      "type": "java.util.Map<java.lang.String,java.lang.String>",
+      "sourceType": "com.lm.sell.config.WechatAccountConfig"
+    }
+  ],
+  "hints": []
+}
